@@ -15,7 +15,8 @@ router
   })
   .post(async (req, res) => {
     const { name, age } = req.body;
-    const post = await addFriend(name, age);
+    const post = await addFriend(name, age)
+    ;
     res.send(await getFriend(name, age));
   });
 

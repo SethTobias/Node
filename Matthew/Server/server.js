@@ -8,10 +8,25 @@
 
 // Import config using dotenv: After running `npm i dotenv` 
 
+// Import bcrypt from bcrypt 
+// app.post('/users',authenticate, (req,res) => {
+// const {username,password} = re1.body
+// bcrypt.hash(password,10,async (err,hash)=>{
+// if (err) throw err
+// await addUser (username,hash)
+// res.send({msg:"You have created an account"})
+// })
+// })
+// 
+// 
+// 
+// 
+// 
+
 // Import functions inside your controller
 
 // Declare the instance of your app ?Instance
-const app
+// const app
 
 // Decare your app to use .json to store data as Json data??
 
@@ -27,3 +42,5 @@ const app
 
 
 // .listens allows your app/server to be hosted 
+
+// Server calls the queries with the use of the async functions

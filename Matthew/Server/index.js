@@ -19,13 +19,17 @@
 
 // Axios method matches server methods remember to add the path
 
+// actual code
 // import { createStore } from 'vuex'
 // import axios from 'axios'
 // // this is the backend url
-// const baseUrl = 'http://localhost:8081'
+// const baseUrl = 'http://localhost:2701'
 // export default createStore({
 //   state: {
 //     mates:[],
+//     newMate: {},
+// 
+// 
 //   },
 //   getters: {
 //   },
@@ -33,6 +37,14 @@
 //     setMates:(state,data) => {
 //       state.mates = data
 //     },
+//      newMate: (state,data) => {
+//     state.mate = data
+//         }
+// 
+// 
+// 
+// 
+// 
 //   },
 //   actions: {
 //     // login({commit},data){
@@ -49,6 +61,23 @@
 //       let {data} = await axios.get(baseUrl+'/mates')
 //       console.log(data);
 //       commit('setMates',data)
+//     },
+// 
+//     async addMate({commit},newMate){ 
+//     await axios.post(baseUrl+'/mates',newMate)
+//     window.location.reload() ???
+//     }
+//     async delMate({commit},name){ 
+//     await axios.delete(baseUrl+'/mates/'+name)
+//     window.location.reload() ???
+//     }
+//     async editMate({commit},update){ 
+//     await axios.delete(baseUrl+'/mates/'+update.id ,update)
+//     window.location.reload() ???
+//     }
+// 
+// 
+// 
 //     },
 //   },
 //   modules: {
