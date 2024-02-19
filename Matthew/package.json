@@ -1,3 +1,11 @@
-// Decalre the type as module
-
-// In the scripts store script you might want to run
+{
+  "name": "vue-singlog",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}

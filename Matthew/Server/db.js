@@ -11,8 +11,22 @@
 // `INSERT INTO friends.users (username,password) VALUES (?,?)`,[username,password]
 // ) 
 // }
-// console.log(await addUser('mattdean','dfghjk'))
+// // console.log(await addUser('mattdean','dfghjk'))
 // 
+// const checkuser = async (username) => {
+//      const [password] = await pool.query(`
+//      SELECT password FROM users WHERE username  = ?`,[username]
+//      return password 
+//
+//
+//`)
+// const checkuser = async (username) => {
+//      const [[{password}]] = await pool.query(`
+//      SELECT password FROM users WHERE username  = ?`,[username]
+//      return password 
+//
+//
+//`)
 // 
 // Recommended
 // Bcrypt bcrpt.hash(password,salt??amount of hash times,(err,hash) {})

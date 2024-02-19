@@ -2,7 +2,7 @@
     <div v-for="pseduoName in $store.state.friends" :key="pseudoName.id">
         <p>{{item.id}}</p>
         <p></p>
-        <p></p>
+        <p v-if="!certainValue"></p>
         <!-- 
             button @click="delMate('pseudoName'item.name'parameterName')"
             button @click="editMate(item.id)"
@@ -42,4 +42,21 @@
 // 
 // }
 // More ways??
+
+// In App.vue
+// script
+// export default () {
+// 
+// 
+// 
+// computed: {
+// 
+// 
+// }
+// }
+// script
+// 
+// 
+// 
+// 
 </script>

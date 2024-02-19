@@ -1,7 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Form:</router-link> |
-    <router-link to="/info">Information:</router-link>
+    <router-link to="/"> 
+    Form:</router-link> |
+    <router-link to="/info"> Information:</router-link> |
+    <router-link to="/signlog"> SignLog:</router-link>
   </nav>
   <router-view/>
 </template>
